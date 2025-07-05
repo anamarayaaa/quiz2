@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Festa junina Quiz</title>
+    <meta name="description" content="Saiba mais sobre essa incrivel Festa" />
+    <link rel="stylesheet" type="text/CSS" href="estilos.css">
+  </head>
+  <body>
+    <header>
+      <h1>Festa Junina: Tradição e Alegria</h1>
+      <p>Teste seu conhecimento!</p>
+    </header>
+    <main>
+      <section>
+        <h2>Sobre esse Quiz</h2>
+        <p>
+          A Festa Junina é uma celebração tradicional brasileira, realizada em
+          junho, com danças como a quadrilha, comidas típicas como pamonha e
+          canjica, e a presença de fogueiras e bandeirinhas. Homenageia santos
+          como São João e envolve trajes caipiras e muita diversão. É uma festa
+          de união, alegria e cultura popular.
+        </p>
+      </section>
+      <section>
+        <h2>1. Qual das opções abaixo é um prato típico da Festa Junina?</h2>
+        <form>
+          <input type="radio" value="Sushi" id="p1a" name="pergunta1" />
+          <label for="p1a">Sushi</label><br />
+
+          <input type="radio" value="Abacate" id="p1b" name="pergunta2" />
+          <label for="p1b">Abacate</label><br />
+
+          <input type="radio" value="Curau" id="p1c" name="pergunta3" />
+          <label for="p1c">Curau</label><br />
+
+          <input
+            type="radio"
+            value="Sopa de legumes"
+            id="p1d"
+            name="pergunta4"
+          />
+          <label for="p1d">Sopa de legumes</label><br />
+        </form>
+      </section>
+      <section>
+        <form>
+          <h2>
+            2. Explique o que é uma quadrilha e qual a sua importância durante
+            as festas juninas.
+          </h2>
+          <input
+            type="text"
+            id="p2"
+            name="pergunta2"
+            placeholder="Digite sua resposta..."
+          />
+        </form>
+      </section>
+      <section>
+        <form>
+          <h2>
+            3. Qual é a palavra secreta relacionada à Festa Junina? (Dica:
+            tradicional bebida quente que acompanha a festa)
+          </h2>
+          <input
+            type="password"
+            id="p3"
+            name="pergunta3"
+            placeholder="Digite sua resposta..."
+          />
+        </form>
+      </section>
+      <section>
+        <h2>
+          4. Em que mês do ano tradicionalmente ocorre a Festa Junina no Brasil?
+        </h2>
+        <form>
+          <input type="date" id="p4" name="pergunta4" />
+        </form>
+      </section>
+      <section>
+        <h2>
+          5. Quais dessas danças são comuns nas festas juninas? (Marque todas as
+          opções corretas)
+        </h2>
+        <form>
+          <input type="checkbox" value="Forró" id="p5a" name="pergunta5" />
+          <label for="p5a">Forró</label><br />
+
+          <input type="checkbox" value="Valsa" id="p5b" name="pergunta5" />
+          <label for="p5b">Valsa</label><br />
+
+          <input type="checkbox" value="Baião" id="p5c" name="pergunta5" />
+          <label for="p5c">Baião</label><br />
+
+          <input
+            type="checkbox"
+            value="Samba de roda"
+            id="p5d"
+            name="pergunta5"
+          />
+          <label for="p5d">Samba de roda</label><br />
+        </form>
+      </section>
+      <section>
+        <h2>6. Anexe uma foto de uma fogueira típica de Festa Junina.</h2>
+        <form>
+          <input type="file" id="p6" name="pergunta6" />
+        </form>
+      </section>
+      <section>
+        <h2>7. Escolha o nome de um santo tradicionalmente homenageado durante as festas juninas:</h2>
+        <p>Selecione uma opção da lista abaixo:</p>
+        <form>
+          <select name="pergunta7" id="p7">
+            <option value="São João">São João</option>
+            <option value="São Paulo">São Paulo</option>
+            <option value="Santo Antônio">Santo Antônio</option>
+            <option value="São Pedro">São Pedro</option>
+          </select>
+        </form>
+      </section>
+      <section>
+        <h2>8. Aqui está a imagem de uma típica festa junina. Observe atentamente e descreva o que aparece na cena.</h2>
+        <figure>
+          <img src="Imagem/imagem festa junina.jpg" width="400px"> <br>
+          <figcaption>Imagem: Festa Junina</figcaption>
+        </figure>
+        <input type="text" id="p8" name="pergunt8" placeholder="Descreva a imagem:">
+      </section>
+      <section>
+        <h2>Tabela de Pontuação</h2>
+        <table border="1">
+          <thead>
+           <tr>
+            <th>Pontuação</th>
+            <th>Avaliação</th>
+           </tr>
+          </thead>
+            <tbody>
+               <tr>
+                <td>0-2</td>
+                <td>Não desista, todo mundo erra</td>
+               </tr>
+               <tr>
+                <td>3-4</td>
+                <td>Tente novamente</td>
+               </tr>
+               <tr>
+                <td>5-7</td>
+                <td>Você pode melhorar</td>
+               </tr>
+               <tr>
+                <td>8</td>
+                <td>Continue assim, Parabéns</td>
+               </tr>
+            </tbody>
+             <tfoot>
+              <tr>
+                <td colspan="2">Boa Sorte na proxima!</td>
+              </tr>
+             </tfoot>
+        </table>
+      </section>
+      <section>
+        <h2>Gabarito</h2>
+        <details>
+        <summary>Clique  aqui! Para ver as respostas.</summary> 
+        <ol>
+          <li>Cural</li>
+          <li>A quadrilha é uma dança típica das festas juninas,
+             com pares vestidos de caipira seguindo comandos divertidos. Ela simboliza a cultura rural
+              brasileira e promove a socialização e preservação das tradições.</li>
+          <li>Quentão</li>
+          <li>Junho</li>
+          <li> Forró,  Baião</li>
+          <li>fogueira típica </li>
+          <li>São João</li>
+          <li>fogueira e roupas caipiras, homenageando santos populares do mês de junho.</li>
+        </ol>
+        </details>
+      </section>
+    </main>
+    <footer>
+
+       <p>Quiz feito por: Ana Caroline e Jose Maraya.</p>
+       <p>Para conhecer mais sobre nós <a href="sobremim.html" target="_blank">Clique aqui</a></p>
+
+    </footer>
+  </body>
+</html>
